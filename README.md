@@ -16,7 +16,7 @@ pip install pyfiglet
 ## 🧑🏻‍💻 Usage
 ```bash
 #simply use the following command :
-python main.py
+python YouPy.py
 # when prompted, select 1 or 2, then enter the video url
 ```
         
