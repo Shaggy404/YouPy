@@ -18,6 +18,25 @@ pip install pyfiglet
 #simply use the following command :
 python YouPy.py
 # when prompted, select 1 or 2, then enter the video url
+                          ___           ___           ___               
+              ___        /  /\         /__/\         /  /\        ___   
+             /__/|      /  /::\        \  \:\       /  /::\      /__/|  
+            |  |:|     /  /:/\:\        \  \:\     /  /:/\:\    |  |:|  
+            |  |:|    /  /:/  \:\   ___  \  \:\   /  /:/~/:/    |  |:|  
+          __|__|:|   /__/:/ \__\:\ /__/\  \__\:\ /__/:/ /:/   __|__|:|  
+         /__/::::\   \  \:\ /  /:/ \  \:\ /  /:/ \  \:\/:/   /__/::::\  
+            ~\~~\:\   \  \:\  /:/   \  \:\  /:/   \  \::/       ~\~~\:\ 
+              \  \:\   \  \:\/:/     \  \:\/:/     \  \:\         \  \:\
+               \__\/    \  \::/       \  \::/       \  \:\         \__\/
+                         \__\/         \__\/         \__\/              
+
+The lightweight Youtube Downloader made in Python
+1 - Download to MP3 (audio)
+2 - Download to MP4 (Video)
+Enter your choice (1 or 2): 2
+Enter the URL of the video 
+https://www.youtube.com/watch?v=HL7jZKJX3ok
+Capra - Silana | LCY Uncut has been successfully downloaded in MP4
 ```
         
 ## 🙇 Author
