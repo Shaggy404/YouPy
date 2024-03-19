@@ -4,7 +4,7 @@ import pyfiglet
 
 result = pyfiglet.figlet_format("YouPy", font = "isometric3", justify = "center" ) 
 print(result)
-print("The lightweigt Youtube Downloader")
+print("The lightweight Youtube Downloader made in Python")
 
 def menu_download():
     print("1 - Download to MP3 (audio)")
@@ -23,8 +23,8 @@ def mp3_download():
     yt = YouTube(input("Enter the URL of the video \n"))
     video = yt.streams.filter(only_audio=True).first()
 
-    # Destination based on Linux system
-    destination = "../../../Music/Youtube"
+    home_directory = os.path.expanduser("~")
+    destination = os.path.join(home_directory, "Music", "Youtube")
 
     out_file = video.download(output_path=destination)
 
@@ -33,19 +33,19 @@ def mp3_download():
     new_file = base + '.mp3'
     os.rename(out_file, new_file)
 
-    print (yt.title + " has been successfully downloaded")
+    print (yt.title + " has been successfully downloaded in MP3")
 
 #MP4 donwload script
 def mp4_download():
     yt = YouTube(input("Enter the URL of the video \n"))
     video = yt.streams.get_highest_resolution()
 
-    # Destination based on Linux system
-    destination = "../../../Videos/Youtube"
+    home_directory = os.path.expanduser("~")
+    destination = os.path.join(home_directory, "Music", "Youtube")
 
     out_file = video.download(output_path=destination)
 
-    print(yt.title + " has been successfully downloaded")
+    print(yt.title + " has been successfully downloaded in MP4")
 
 
 menu_download()
