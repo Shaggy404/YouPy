@@ -41,7 +41,7 @@ def mp4_download():
     video = yt.streams.get_highest_resolution()
 
     home_directory = os.path.expanduser("~")
-    destination = os.path.join(home_directory, "Music", "Youtube")
+    destination = os.path.join(home_directory, "Video", "Youtube")
 
     out_file = video.download(output_path=destination)
 
